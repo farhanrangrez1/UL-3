@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-1{
+    background-color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    height: 40px;
+    padding: 40px;
+}
+.box-1 img{
+    height: 20px;
+}
+.z-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    list-style: none;
+}
+.z-1 img{
+    height: 50px;
+}
+.z-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 500px;
+    list-style: none;
+}
+.z-2 button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+}
+.box-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.box-3{
+    background-color:white;
+    width: 50%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+}
+.a-0 img{
+height: 40px;
+margin-left: 30px;
+}
+.a-0{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+    background-color: white;
+    width: 500px;
+    height: 70px;
+}
+.a-3 li{
+margin-left: 20px;
+}
+.y-1{
+    font-size: 20px;
+    
+}
+.a-1 button{
+    height: 40px;
+    width: 140px;
+    list-style: none;
+}
+.a-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+.b-1 button{
+    background-color: #7a11f8;
+    border: none;
+    border-radius: 20px;
+}
+.b-2 button{
+    border: none;
+    border-radius: 20px;
+   
+}
+.b-3 button{
+    border: none;
+    border-radius: 20px;
+}.b-4 button{
+    border: none;
+    border-radius: 20px;
+}
+.box-4 img{
+width: 700px;
+height: 550px;
+
+}
+.yy-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+.yy-1 button{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width:768px){
+   .z-2{
+    display: none;
+   }
+.yy-1{
+    display: block;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.yy-1 button{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190vh;
+}
+.box-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+}
